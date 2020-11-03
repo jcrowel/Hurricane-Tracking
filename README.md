@@ -3,7 +3,7 @@
 This repository was created for the purpose of tracking Tropical Cyclones.
 
 The first four scripts come from Eric Oliver's repository https://github.com/ecjoliver/stormTracking (Oliver, E., 2018).
-these were changed by me to support the data that I was analyzing. The changes include switching from basemap to cartopy, and using the SubX (Sub seasonal forecasting) data (Pegion, K., 2019). The area I am researching is the Atlantic Basin, but the area can modified for your own usage in the storm plotting. 
+these were changed by me to support the data that I was analyzing. Storm fuctions houses the fuctions created by Eric Oliver, that are called throughout the different scripts. It has been modified slightly for my research. The changes in the other scripts include switching from basemap to cartopy, and using the SubX (Sub seasonal forecasting) data (Pegion, K., 2019). The area I am researching is the Atlantic Basin, but the area can modified for your own usage in the storm plotting. 
 With-in the storm plotting, sub-scripts have been added to plot the Precipitation, and the U and V winds as vectors. 
 
 The next script is for the purpose of tracking the Madden-Julian Oscillation, this plots the Out-going Longwave Radiation as a proxy for the MJO (Kim, D et al.,2014).  
@@ -17,7 +17,7 @@ The first step is to run the storm_detection.py script which will load in the sl
 The next step is to run the storm_tracking.py script which will load in the detected positions and stitch together appropriate tracks. The positions are linked from one time step to the next if they are the nearest neighbours within a search radius given by a maximum storm speed of 80 km/hour. Tracks are further filtered by removing short tracks with a duration 12 hours or less. The tracked storms and anticyclones are then stored in a .npz file. (Oliver, E., 2018)"
 
 
-*Contact* 
+#Contact
 
 Jacquelyn Crowell
 
