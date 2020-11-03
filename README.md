@@ -16,11 +16,17 @@ The first step is to run the storm_detection.py script which will load in the sl
 
 The next step is to run the storm_tracking.py script which will load in the detected positions and stitch together appropriate tracks. The positions are linked from one time step to the next if they are the nearest neighbours within a search radius given by a maximum storm speed of 80 km/hour. Tracks are further filtered by removing short tracks with a duration 12 hours or less. The tracked storms and anticyclones are then stored in a .npz file. (Oliver, E., 2018)"
 
+
 *Contact* 
+
 Jacquelyn Crowell
+
 Student at George Mason University
+
 Department of Atomospheric, Oceanic, and Earth Sciences
+
 Fairfax, Virginia, United States
+
 e: jcrowel@gmu.edu
 
 Pegion, K., Kirtman, B., Becker, E., Collins, D., LaJoie, E., Burgman, R., Bell, R., DelSole, T., Min, D., Zhu, Y., Li, W., Sinsky, E., Guan, H., Gottschalck, J., Metzger, E., Barton, N., Achuthavarier, D., Marshak, J., Koster, R., Lin, H., Gagnon, N., Bell, M., Tippett, M., Robertson, A., Sun, S., Benjamin, S., Green, B., Bleck, R. and Kim, H., 2019. The Subseasonal Experiment (SubX): A Multimodel Subseasonal Prediction Experiment. Bulletin of the American Meteorological Society, 100(10), pp.2043-2060
