@@ -8,7 +8,7 @@ With-in the storm plotting, sub-scripts have been added to plot the Precipitatio
 
 The next script is for the purpose of tracking the Madden-Julian Oscillation, this plots the Out-going Longwave Radiation as a proxy for the MJO (Kim, D et al.,2014).  
 
-Below is the algorithm for Eric Olivers Storm Tracker. 
+# Algorithm for Eric Olivers Storm Tracker. 
 "Algorithm
 Storms and anticylones are detected as extrema in the mean sea level pressure (slp) field. These extrema are detected following a modified form of the mesoscale ocean eddy tracking algorithm outlined in Chelton et al. (Progress in Oceanogaphy, 2011) and implemented in the eddyTracking code.
 
