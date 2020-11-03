@@ -17,7 +17,7 @@ The first step is to run the storm_detection.py script which will load in the sl
 The next step is to run the storm_tracking.py script which will load in the detected positions and stitch together appropriate tracks. The positions are linked from one time step to the next if they are the nearest neighbours within a search radius given by a maximum storm speed of 80 km/hour. Tracks are further filtered by removing short tracks with a duration 12 hours or less. The tracked storms and anticyclones are then stored in a .npz file. (Oliver, E., 2018)"
 
 
-#Contact
+# Contact
 
 Jacquelyn Crowell
 
